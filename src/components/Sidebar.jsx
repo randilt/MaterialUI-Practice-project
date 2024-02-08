@@ -4,6 +4,7 @@ import {
   Group,
   Home,
   Inbox,
+  ModeNight,
   Person,
   Report,
   Settings,
@@ -17,6 +18,7 @@ import {
   ListItemButton,
   ListItemIcon,
   ListItemText,
+  Switch,
 } from "@mui/material";
 
 export const Sidebar = () => {
@@ -78,6 +80,14 @@ export const Sidebar = () => {
             <Report />
           </ListItemIcon>
           <ListItemText primary="Report" />
+        </ListItemButton>
+      </ListItem>
+      <ListItem disablePadding>
+        <ListItemButton>
+          <ListItemIcon>
+            <ModeNight />
+          </ListItemIcon>
+          <Switch />
         </ListItemButton>
       </ListItem>
     </Box>
