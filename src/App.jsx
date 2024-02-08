@@ -1,30 +1,19 @@
-import { Button, Container } from "@mui/material";
-import "./App.css";
-import {
-  ConfirmationNumber,
-  Delete,
-  Edit,
-  Gamepad,
-  Send,
-} from "@mui/icons-material";
+import { Box, Stack } from "@mui/material";
+import { Feed } from "./components/Feed";
+import { Rightbar } from "./components/Rightbar";
+import { Sidebar } from "./components/Sidebar";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
-    <>
-      <Container>
-        <h1>Hello world</h1>
-        <Button variant="text">Send</Button>
-        <Button variant="contained" color="error" startIcon={<Delete />}>
-          Delete
-        </Button>
-        <Button variant="contained" color="success" startIcon={<Edit />}>
-          Edit
-        </Button>
-        <Button variant="outlined" endIcon={<Gamepad />}>
-          Controls
-        </Button>
-      </Container>
-    </>
+    <Box>
+      <Navbar />
+      <Stack direction="row" spacing={2} justifyContent="space-between">
+        <Sidebar />
+        <Feed />
+        <Rightbar />
+      </Stack>
+    </Box>
   );
 }
 
