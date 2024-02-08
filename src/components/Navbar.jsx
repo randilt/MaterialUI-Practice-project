@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Mail, Notifications, SmartToy } from "@mui/icons-material";
 import {
   AppBar,
@@ -5,6 +6,8 @@ import {
   Badge,
   Box,
   InputBase,
+  Menu,
+  MenuItem,
   Toolbar,
   Typography,
   styled,
@@ -40,6 +43,8 @@ const UserBox = styled(Box)(({ theme }) => ({
 }));
 
 export const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <AppBar position="sticky">
       <StyledToolbar>
@@ -58,11 +63,12 @@ export const Navbar = () => {
             <Notifications />
           </Badge>
           <Avatar
-            sx={{ width: 30, height: 30 }}
+            sx={{ width: 30, height: 30, cursor: "pointer" }}
+            onClick={(e) => setOpen(true)}
             src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/VInfinite017/phpo1DxRH.jpeg"
           />
         </Icons>
-        <UserBox>
+        <UserBox onClick={(e) => setOpen(true)} sx={{ cursor: "pointer" }}>
           <Avatar
             sx={{ width: 30, height: 30 }}
             src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/VInfinite017/phpo1DxRH.jpeg"
@@ -70,6 +76,24 @@ export const Navbar = () => {
           <Typography variant="span">Vincent</Typography>
         </UserBox>
       </StyledToolbar>
+      <Menu
+        id="demo-positioned-menu"
+        aria-labelledby="demo-positioned-button"
+        open={open}
+        onClose={(e) => setOpen(false)}
+        anchorOrigin={{
+          vertical: "top",
+          horizontal: "right",
+        }}
+        transformOrigin={{
+          vertical: "top",
+          horizontal: "right",
+        }}
+      >
+        <MenuItem>Profile</MenuItem>
+        <MenuItem>My account</MenuItem>
+        <MenuItem>Logout</MenuItem>
+      </Menu>
     </AppBar>
   );
 };
