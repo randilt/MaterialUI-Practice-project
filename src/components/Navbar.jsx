@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { Mail, Notifications, SmartToy } from "@mui/icons-material";
 import {
@@ -59,7 +60,7 @@ export const Navbar = () => {
           <Badge badgeContent={4} color="error">
             <Mail />
           </Badge>
-          <Badge badgeContent={4} color="error">
+          <Badge badgeContent={9} color="error">
             <Notifications />
           </Badge>
           <Avatar

@@ -114,3 +114,76 @@ export const posts = [
       "Immersive Workstation: Dive into Productivity with a Triple Monitor Setup, Where Screens Unite to Amplify Efficiency and Creativity in the Digital Realm, Blending Technology and Functionality in Harmonious Brilliance. 💻🖥️🌟",
   },
 ];
+
+export const users = [
+  {
+    name: "Remy Sharp",
+    src: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?cs=srgb&dl=pexels-italo-melo-2379005.jpg&fm=jpg",
+  },
+  {
+    name: "Travis Howard",
+    src: "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1707264000&semt=ais",
+  },
+  {
+    name: "Cindy Baker",
+    src: "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZhY2V8ZW58MHx8MHx8fDA%3D",
+  },
+  {
+    name: "Agnes Walker",
+    src: "https://media.istockphoto.com/id/1441360103/photo/close-up-portrait-of-awesome-young-caucasian-male-smiling-and-looking-at-camera-at-the.webp?b=1&s=170667a&w=0&k=20&c=d8LX9wb13x8pRm-vLkOrEDiagsjSFNoIgr-eAUeIqyI=",
+  },
+  { name: "Trevor Henderson", src: "/static/images/avatar/5.jpg" },
+  {
+    name: "Agnes Walker",
+    src: "https://media.istockphoto.com/id/1441360103/photo/close-up-portrait-of-awesome-young-caucasian-male-smiling-and-looking-at-camera-at-the.webp?b=1&s=170667a&w=0&k=20&c=d8LX9wb13x8pRm-vLkOrEDiagsjSFNoIgr-eAUeIqyI=",
+  },
+  { name: "Trevor Henderson", src: "/static/images/avatar/5.jpg" },
+  {
+    name: "Agnes Walker",
+    src: "https://media.istockphoto.com/id/1441360103/photo/close-up-portrait-of-awesome-young-caucasian-male-smiling-and-looking-at-camera-at-the.webp?b=1&s=170667a&w=0&k=20&c=d8LX9wb13x8pRm-vLkOrEDiagsjSFNoIgr-eAUeIqyI=",
+  },
+  {
+    name: "Trevor Henderson",
+    src: "https://media.istockphoto.com/id/1314997483/photo/portrait-of-a-confident-mature-businessman-working-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=OxN-O2qe4LbgYuOnp_VkgXOV5p7CDC_uWja9iWFM-OA=",
+  },
+  {
+    name: "Jon Doe",
+    src: "https://img.freepik.com/premium-photo/take-good-look-this-face-youll-miss-it-later-shot-handsome-young-man-standing-against-grey-background_590464-57810.jpg",
+  },
+  {
+    name: "Frank Smith",
+    src: "https://media.istockphoto.com/id/1200677760/photo/portrait-of-handsome-smiling-young-man-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=g_ZmKDpK9VEEzWw4vJ6O577ENGLTOcrvYeiLxi8mVuo=",
+  },
+  {
+    name: "Ted Mosby",
+    src: "https://i.pinimg.com/236x/bd/90/32/bd9032ed343d8222afcba28bea6edf20.jpg",
+  },
+  {
+    name: "Carl Johnson",
+    src: "https://media.istockphoto.com/id/1314997483/photo/portrait-of-a-confident-mature-businessman-working-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=OxN-O2qe4LbgYuOnp_VkgXOV5p7CDC_uWja9iWFM-OA=",
+  },
+  {
+    name: "Frank Smith",
+    src: "https://media.istockphoto.com/id/1200677760/photo/portrait-of-handsome-smiling-young-man-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=g_ZmKDpK9VEEzWw4vJ6O577ENGLTOcrvYeiLxi8mVuo=",
+  },
+  {
+    name: "Ted Mosby",
+    src: "https://i.pinimg.com/236x/bd/90/32/bd9032ed343d8222afcba28bea6edf20.jpg",
+  },
+  {
+    name: "Carl Johnson",
+    src: "https://media.istockphoto.com/id/1314997483/photo/portrait-of-a-confident-mature-businessman-working-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=OxN-O2qe4LbgYuOnp_VkgXOV5p7CDC_uWja9iWFM-OA=",
+  },
+  {
+    name: "Frank Smith",
+    src: "https://media.istockphoto.com/id/1200677760/photo/portrait-of-handsome-smiling-young-man-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=g_ZmKDpK9VEEzWw4vJ6O577ENGLTOcrvYeiLxi8mVuo=",
+  },
+  {
+    name: "Ted Mosby",
+    src: "https://i.pinimg.com/236x/bd/90/32/bd9032ed343d8222afcba28bea6edf20.jpg",
+  },
+  {
+    name: "Carl Johnson",
+    src: "https://media.istockphoto.com/id/1314997483/photo/portrait-of-a-confident-mature-businessman-working-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=OxN-O2qe4LbgYuOnp_VkgXOV5p7CDC_uWja9iWFM-OA=",
+  },
+];
