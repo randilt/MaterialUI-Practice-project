@@ -49,7 +49,7 @@ export const Navbar = () => {
     <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          MUI
+          RTFeed
         </Typography>
         <SmartToy sx={{ display: { sm: "none", xs: "block" } }} />
         <Search>

@@ -8,7 +8,7 @@ export const Rightbar = () => {
       p={2}
       sx={{ display: { xs: "none", sm: "block" } }}
     >
-      Rightbar
+      <Box position="fixed">Rightbar</Box>
     </Box>
   );
 };

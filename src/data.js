@@ -78,6 +78,21 @@ export const clothingProducts = [
 
 export const posts = [
   {
+    username: "Chris Johnson",
+    img: "https://images.spiceworks.com/wp-content/uploads/2023/05/17141122/Shutterstock_2079263023.jpg",
+    date: "January 1, 2017",
+    content:
+      "Unleashing Creativity: Delve into the World of Programming, Where Lines of Code Dance Across the Screen, Igniting Innovation and Problem-Solving, as a Digital Maestro Crafts Solutions in the Realm of Bits and Bytes. 💻💡🖥️",
+  },
+  {
+    username: "Anna Schmidt",
+    img: "https://www.krugerpark.co.za/images/spekes-hinged-back-tortoise-south-africa-786x416.jpg",
+    date: "December 31, 2016",
+    content:
+      "Nature's Wonders: Behold the Majestic Beauty of the Speke's Hinged-Back Tortoise, an Endearing Emblem of Resilience and Grace, Roaming the Vast Plains of South Africa in a Timeless Dance of Life and Harmony. 🐢🌍✨",
+  },
+
+  {
     username: "John Doe",
     img: "https://www.shutterstock.com/image-photo/majestic-view-on-turquoise-water-600nw-266538056.jpg",
     date: "September 14, 2016",
@@ -97,12 +112,5 @@ export const posts = [
     date: "November 11, 2016",
     content:
       "Immersive Workstation: Dive into Productivity with a Triple Monitor Setup, Where Screens Unite to Amplify Efficiency and Creativity in the Digital Realm, Blending Technology and Functionality in Harmonious Brilliance. 💻🖥️🌟",
-  },
-  {
-    username: "Anna Schmidt",
-    img: "https://www.krugerpark.co.za/images/spekes-hinged-back-tortoise-south-africa-786x416.jpg",
-    date: "December 31, 2016",
-    content:
-      "Nature's Wonders: Behold the Majestic Beauty of the Speke's Hinged-Back Tortoise, an Endearing Emblem of Resilience and Grace, Roaming the Vast Plains of South Africa in a Timeless Dance of Life and Harmony. 🐢🌍✨",
   },
 ];
