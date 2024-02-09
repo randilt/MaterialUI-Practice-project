@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Favorite, FavoriteBorder, MoreVert, Share } from "@mui/icons-material";
 import {
   Avatar,
@@ -11,13 +12,13 @@ import {
   Typography,
 } from "@mui/material";
 
-export const Post = () => {
+export const Post = (props) => {
   return (
     <Card sx={{ margin: 5 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
-            R
+          <Avatar sx={{ bgcolor: "red" }} aria-label={props.title}>
+            {props.title[0]}
           </Avatar>
         }
         action={
@@ -25,20 +26,18 @@ export const Post = () => {
             <MoreVert />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title={props.title}
+        subheader={props.date}
       />
       <CardMedia
         component="img"
         height="20%"
-        image="https://www.shutterstock.com/image-photo/majestic-view-on-turquoise-water-600nw-266538056.jpg"
-        alt="Paella dish"
+        image={props.imgUrl}
+        alt={props.title}
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
+          {props.content}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
