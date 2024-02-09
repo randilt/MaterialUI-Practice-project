@@ -13,7 +13,7 @@ import {
 
 export const Post = () => {
   return (
-    <Card>
+    <Card sx={{ margin: 5 }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
@@ -31,7 +31,7 @@ export const Post = () => {
       <CardMedia
         component="img"
         height="20%"
-        image="https://houseofnasheats.com/wp-content/uploads/2023/08/Mixed-Paella-Recipe-1-500x500.jpg"
+        image="https://www.shutterstock.com/image-photo/majestic-view-on-turquoise-water-600nw-266538056.jpg"
         alt="Paella dish"
       />
       <CardContent>
